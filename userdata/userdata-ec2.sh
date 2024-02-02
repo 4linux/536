@@ -13,7 +13,6 @@ dnf install -y gcc-c++ make automake zlib-devel libmemcached-devel php-devel
 wget https://pecl.php.net/get/memcached-3.1.5.tgz
 tar -xzvf memcached-3.1.5.tgz
 cd memcached-3.1.5
-5/modules/memcached.so
 phpize
 ./configure --disable-memcached-sasl
 make
